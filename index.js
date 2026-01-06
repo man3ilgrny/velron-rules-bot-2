@@ -34,7 +34,7 @@ client.once('ready', async () => {
   console.log(`✅ Logged in as ${client.user.tag}`);
 
   // 🔹 آيدي الروم اللي تنرسل فيه رسالة القوانين
-  const CHANNEL_ID = '1457506347456270468';
+  const CHANNEL_ID = '1371829941699612687';
 
   const channel = await client.channels.fetch(CHANNEL_ID);
 
